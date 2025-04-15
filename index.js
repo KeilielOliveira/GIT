@@ -1,7 +1,9 @@
+const HelloWorld = "Hello World!";
+
 msg(hello());
 
 function hello() {
-    return "Hello World!";
+    return HelloWorld;
 }
 
 function msg(msg) {
